@@ -1,0 +1,147 @@
+:root {
+  --primary-color: #EBF2FA;
+  --light-green: #A5BE00;
+  --dark-green: #679436;
+  --light-blue: #427AA1;
+  --dark-blue: #064789;
+  --main-font: 'Montserrat';
+}
+
+.header {
+  background-color: var(--dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--main-font);
+  font-size: 16px;
+  padding-right: 15%;
+}
+
+.logo {
+  max-height: 80px;
+}
+
+.title-logo {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: var(--main-font);
+  font-weight: 700;
+  color: var(--light-green);
+}
+
+.logoname {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin: 16px;
+}
+
+.item-menu {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.principal {
+  background-color: var(--primary-color);
+  padding: 0 15%;
+}
+
+.content {
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 32px;
+  font-family: var(--main-font);
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+.paragraph {
+  font-size: 24px;
+  font-family: var(--main-font);
+  font-weight: 400;
+  color: var(--dark-green);
+}
+
+.button {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: var(--main-font);
+  font-weight: 700;
+  color: var(--primary-color);
+  background-color: var(--light-green);
+  text-align: center;
+  padding: 8px;
+  border-radius: 8px;
+  max-width: 300px;
+
+}
+
+.image {
+  width: 500px;
+}
+
+.footer {
+  padding: 16px;
+  text-align: center;
+  background-color: var(--light-blue);
+}
+
+.footer-text {
+  font-size: 16px;
+  font-family: var(--main-font);
+  color: var(--primary-color);
+}
+
+.title-products {
+  padding: 16px;
+  font-size: 32px;
+  font-family: var(--main-font);
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+.products {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  justify-content: space-between;
+}
+
+.product-title {
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--dark-green);
+  margin-bottom: 16px;
+}
+
+.product-text {
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--dark-blue);
+  margin-bottom: 24px;
+}
+
+.product-image {
+  max-width: 300px;
+  border-radius: 8px;
+}
